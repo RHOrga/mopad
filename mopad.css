@@ -1,0 +1,41 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background: #f5f5f5;
+}
+.page {
+  margin: 2em;
+}
+@media only screen and (max-width: 700px) {
+  .page {
+    margin: 1em;
+  }
+}
+@media only screen and (min-width: 701px) {
+  .topicList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -0.5em;
+  }
+}
+.topic.card {
+  margin: 1em 0;
+}
+@media only screen and (min-width: 701px) {
+  .topic.card {
+    margin: .5em;
+    flex: 1 1 0;
+    min-width: 300px;
+  }
+}
+.error {
+  color: red;
+}
+.login.card {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtb3BhZC5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
