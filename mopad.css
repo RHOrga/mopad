@@ -13,6 +13,16 @@ body {
     margin: 1em;
   }
 }
+.pageHeader {
+  margin: 1em 0;
+}
+.pageHeader h1 {
+  display: inline-block;
+  margin: 0;
+}
+.pageHeader * {
+  vertical-align: bottom;
+}
 @media only screen and (min-width: 701px) {
   .topicList {
     display: flex;
