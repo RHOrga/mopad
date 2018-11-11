@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: Roboto;
-  background: #f5f5f5;
 }
 .page {
   margin: 2em;
@@ -18,7 +17,10 @@ body {
 }
 .pageHeader h1 {
   display: inline-block;
-  margin: 0;
+  margin: 0 1em 0 0;
+}
+.pageHeader > div {
+  padding: 3px 0;
 }
 .pageHeader * {
   vertical-align: bottom;
@@ -48,5 +50,3 @@ body {
   max-width: 800px;
   margin: 0 auto;
 }
-
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtb3BhZC5jc3MiLCJzb3VyY2VSb290IjoiIn0=*/
